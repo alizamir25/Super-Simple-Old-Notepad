@@ -1,4 +1,4 @@
-html {
+html{
     background-image: linear-gradient(rgba(70,0,0,0),rgba(170,50,0,.5)), url(https://subtlepatterns.com/patterns/wood_pattern.png);
     min-height: 100%;
     box-sizing: border-box;
@@ -6,13 +6,13 @@ html {
     -webkit-font-smoothing: antialiased;
     padding: 1.5em;
   }
-  .notepad {
+  .notepad{
     margin: 1.5em auto;
     width: 300px;
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(80,0,0,.3);
   }
-    .notepad h1 {
+    .notepad h1{
       text-align: center;
       font-size: 1em;
       background-color: #3f7eb6;
@@ -26,7 +26,7 @@ html {
       margin: 0;
       position: relative;
     }
-      .notepad h1:after {
+      .notepad h1:after{
         content: '';
         position: absolute;
         width: 100%;
@@ -34,7 +34,7 @@ html {
         left: 0;
         border-bottom: 1px dashed rgba(0,0,0,.6);
       }
-    .notepad textarea {
+    .notepad textarea{
       font: inherit;
       font-size: .75em;
       color: rgba(0,0,0,.7);
