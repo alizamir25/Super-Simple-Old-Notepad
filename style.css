@@ -6,14 +6,12 @@ html {
     -webkit-font-smoothing: antialiased;
     padding: 1.5em;
   }
-  
   .notepad {
     margin: 1.5em auto;
     width: 300px;
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(80,0,0,.3);
   }
-  
     .notepad h1 {
       text-align: center;
       font-size: 1em;
@@ -28,7 +26,6 @@ html {
       margin: 0;
       position: relative;
     }
-    
       .notepad h1:after {
         content: '';
         position: absolute;
@@ -37,7 +34,6 @@ html {
         left: 0;
         border-bottom: 1px dashed rgba(0,0,0,.6);
       }
-    
     .notepad textarea {
       font: inherit;
       font-size: .75em;
